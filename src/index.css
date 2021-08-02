@@ -164,38 +164,38 @@ a{
   width: 70px;
 }
 .node_js {
-  border: 3px solid #597658;
+  border:1px dashed #597658;
 }
 
 .react_js {
-  border: 3px solid #8cc5d3;
+  border:1px dashed #8cc5d3;
 }
 
 .mongo_db {
-  border: 3px solid #5e7e5a;
+  border:1px dashed #5e7e5a;
 }
 
 .javascript {
-  border: 3px solid #b3b372;
+  border:1px dashed #b3b372;
 }
 
 .laravel {
-  border:3px solid #eb8376;
+  border:1px dashed #eb8376;
 }
 .html{
-  border:3px solid #ca8058;
+  border:1px dashed #ca8058;
 }
 .css{
-  border:3px solid #5686a1;
+  border:1px dashed #5686a1;
 }
 .bootstrap{
-  border:3px solid #75609b;
+  border:1px dashed #75609b;
 }
 .php{
-  border:3px solid #6E81B6;
+  border:1px dashed #6E81B6;
 }
 .mysql{
-  border:3px solid #304e4c;
+  border:1px dashed #304e4c;
 }
 .btn_group {
   width: 100%;
@@ -229,7 +229,7 @@ a{
 }
 @media only screen and (max-width: 768px) {
   .btn {
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 2.4rem;
     font-size: 14px;
   }
   .intro h1 {font-size: 2.2rem;}
@@ -242,5 +242,8 @@ a{
   }
   .about_intro h3 {
     font-size: 1.6rem;
+  }
+  .bg_hero {
+    width: 100%;
   }
 }
