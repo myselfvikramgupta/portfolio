@@ -1,3 +1,4 @@
+import Button from "./components/button/Button"
 function Introduction() {
     return (
         <>
@@ -21,30 +22,12 @@ function Introduction() {
                             <h3>MERN Stack Developer</h3>
                         </div>
                       <div className="btn_group">
-                      <button className="btn btn_primary_outline">Our Work</button>
-                      <button className="btn btn_primary">Resume</button>
+
+                      <Button link="#work" btnType="btn_primary_outline" text="My Work" />
+                      <Button link="#" btnType="btn_primary" text="Resume" />
+                    
                       </div>
-                        {/* <div className="profile_image">
-                   
-                    <div className="image">
-                        <img src="/images/profile.png" alt="" /> 
-                    </div>
-                    <div className="node_js icons_box">
-                        <img src="/images/icons/nodejs.png" alt="" /> 
-                    </div>
-                    <div className="react_js icons_box">
-                        <img src="/images/icons/reactjs.png" alt="" /> 
-                    </div>
-                    <div className="mongo_db icons_box">
-                        <img src="/images/icons/mongodb.png" alt="" /> 
-                    </div>
-                    <div className="javascript icons_box">
-                        <img src="/images/icons/js.png" alt="" /> 
-                    </div>
-                    <div className="laravel icons_box">
-                        <img src="/images/icons/laravel.png" alt="" /> 
-                    </div>
-                </div> */}
+                     
                     </div>
                 </div>
             </section>
