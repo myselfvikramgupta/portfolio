@@ -10,11 +10,10 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Montserrat", sans-serif;
-  
 }
-a{
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 .home {
   background: #24292e;
@@ -160,42 +159,42 @@ a{
   cursor: pointer;
   margin-bottom: 15px;
 }
-.icons_box img{
+.icons_box img {
   width: 70px;
 }
 .node_js {
-  border:1px dashed #597658;
+  border: 1px dashed #597658;
 }
 
 .react_js {
-  border:1px dashed #8cc5d3;
+  border: 1px dashed #8cc5d3;
 }
 
 .mongo_db {
-  border:1px dashed #5e7e5a;
+  border: 1px dashed #5e7e5a;
 }
 
 .javascript {
-  border:1px dashed #b3b372;
+  border: 1px dashed #b3b372;
 }
 
 .laravel {
-  border:1px dashed #eb8376;
+  border: 1px dashed #eb8376;
 }
-.html{
-  border:1px dashed #ca8058;
+.html {
+  border: 1px dashed #ca8058;
 }
-.css{
-  border:1px dashed #5686a1;
+.css {
+  border: 1px dashed #5686a1;
 }
-.bootstrap{
-  border:1px dashed #75609b;
+.bootstrap {
+  border: 1px dashed #75609b;
 }
-.php{
-  border:1px dashed #6E81B6;
+.php {
+  border: 1px dashed #6e81b6;
 }
-.mysql{
-  border:1px dashed #304e4c;
+.mysql {
+  border: 1px dashed #304e4c;
 }
 .btn_group {
   width: 100%;
@@ -227,14 +226,87 @@ a{
 .btn_primary:hover {
   background: #751ef7;
 }
+.my_work {
+  display: grid;
+  margin: 2rem 0;
+  overflow: hidden;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  width: 350px;
+  height: 400px;
+  background: #24292e;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding:1.2rem;
+  box-shadow: 0 0 10px rgba(0,0,0 ,0.30);
+  cursor:pointer;
+  position: relative;
+}
+.card_image {
+  width: 100%;
+  height: 180px;
+  position: relative;
+}
+.card_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  /* filter: drop-shadow(-10px -10px 1px rgba(0, 0, 0, 0.2)); */
+}
+.card_title{
+  text-align:center;
+  margin:1rem 0;
+  color: #919eab;
+  letter-spacing:1px;
+  font-size:1rem;
+}
+.project_info p{
+ color: rgb(246, 246, 246);
+}
+.card_footer{
+  width:50%;
+  padding:1rem 0;
+  position:absolute;
+  bottom:0;
+  right:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_link{
+  width:40px;
+  height:40px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:50%;
+  box-shadow: 0 0 10px rgba(0,0,0 ,0.30);
+ 
+}
+.social_link svg{
+  fill:#c9c642;
+}
+.social_link:nth-child(1){
+  margin-right:10px;
+}
 @media only screen and (max-width: 768px) {
   .btn {
     padding: 0.8rem 2.4rem;
     font-size: 14px;
   }
-  .intro h1 {font-size: 2.2rem;}
-  .intro h2 {font-size: 1.6rem;}
-  .intro h3 {font-size: 1.6rem;}
+  .intro h1 {
+    font-size: 2.2rem;
+  }
+  .intro h2 {
+    font-size: 1.6rem;
+  }
+  .intro h3 {
+    font-size: 1.6rem;
+  }
   .about_me {
     width: 100%;
     margin: auto auto;
@@ -245,5 +317,8 @@ a{
   }
   .bg_hero {
     width: 100%;
+  }
+  .my_work {
+    grid-template-columns: auto;
   }
 }

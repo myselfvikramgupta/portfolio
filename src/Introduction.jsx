@@ -24,7 +24,7 @@ function Introduction() {
                       <div className="btn_group">
 
                       <Button link="#work" btnType="btn_primary_outline" text="My Work" />
-                      <Button link="#" btnType="btn_primary" text="Resume" />
+                      <Button link="https://drive.google.com/file/d/1YMy_zrrduW7X__Zsjg2kL9rO31e9eVfB/view?usp=sharing" btnType="btn_primary" text="Resume" />
                     
                       </div>
                      

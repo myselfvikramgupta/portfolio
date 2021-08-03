@@ -1,35 +1,19 @@
-import Title from './components/title/Title';
+import Title from "./components/title/Title";
+import WorkCard from "./components/workCard/WorkCard";
+import myWork from './data/myWork'
 function Work() {
-    return (
-        <>
-            <section className="work" id="work">
-                <div className="container">
-                <Title title="My Work" />
-                    <div className="my_work">
-                        <div className="card">
-                            <div className="card_image">
-
-                            </div>
-                            <div className="card_title">
-
-                            </div>
-                            <div className="card_body">
-                                <div className="project_info">
-
-                                </div>
-                                <div className="tech_info">
-
-                                </div>
-                            </div>
-                            <div className="card_footer">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </>
-    )
+  return (
+    <>
+      <section className="work" id="work">
+        <div className="container">
+          <Title title="My Work" />
+          <div className="my_work">
+          {myWork.map((work)=><WorkCard image={work.image} title={work.title} description={work.description} techIcon={work.techIcon} websiteUrl={work.websiteUrl} githubUrl={work.githubUrl} />)}  
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
-export default Work
+export default Work;
