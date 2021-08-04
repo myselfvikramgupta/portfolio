@@ -7,7 +7,7 @@ function About() {
                <Title title="About Me" />
                 <div className="about_me">
                     <p>
-                        I started coding in the 2017 and i am self-taught developer . I have serious passion for morden looking websites with little bit of animation. I love what I am doing and I am highly motivated to collaborate with someone.
+                    Hi!, I'm Vikram Gupta a web developer , I have more than 4 years of experience in building modern web applications. I am currently working on MERN stack and I also use PHP(Laravel) and mysql, I keep learning and improving every day because technology never stops.
                     </p>
                 </div>
                 <div className="social_link">
