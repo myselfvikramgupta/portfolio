@@ -1,5 +1,5 @@
 import Title from "./components/title/Title"
-import LinkdinSvg from "./components/svgIcon/LinkdinSvg"
+
 function About() {
     return (
         <>
