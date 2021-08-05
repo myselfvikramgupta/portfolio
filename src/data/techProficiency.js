@@ -1,42 +1,52 @@
  const techProficiency=[
     {
-      language:"html",
+      language:"HTML",
+      class:"html",
       logo:"html.png"
     },
     {
-      language:"css",
+      language:"CSS",
+      class:"css",
       logo:"css.png"
     },
     {
-      language:"javascript",
-      logo:"js.png"
+      language:"JavaScript",
+      class:"css",
+      logo:"javascript.png"
     },
     {
-      language:"bootstrap",
+      language:"Bootstrap",
+      class:"bootstrap",
       logo:"bootstrap.png"
     },
     {
-      language:"react_js",
+      language:"React",
+      class:"react_js",
       logo:"reactjs.png"
     },
     {
-      language:"php",
+      language:"PHP",
+      class:"php",
       logo:"php.png"
     },
     {
-      language:"laravel",
+      language:"Laravel",
+      class:"laravel",
       logo:"laravel.png"
     },
     {
-      language:"node_js",
+      language:"Node.js",
+      class:"node_js",
       logo:"nodejs.png"
     },
     {
-      language:"mysql",
+      language:"MySQL",
+      class:"mysql",
       logo:"mysql.png"
     },
     {
-      language:"mongo_db",
+      language:"MongoDB",
+      class:"mongo_db",
       logo:"mongodb.png"
     },
   ];
