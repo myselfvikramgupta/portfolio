@@ -148,7 +148,7 @@ a {
 .social_link {
   width: 60%;
   margin: auto auto;
-  margin-top: 30px;
+  margin-top: 3rem;
 }
 .tech_proficiency {
   margin: 2rem 0;
@@ -157,68 +157,67 @@ a {
 .icons_box {
   background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
-  padding:0.5rem;
-  border-radius:0.120rem;
-  position:relative;
-  box-shadow: 1px 1px 3px rgba(0 ,0, 0,0.30);
-  transition:0.5s;
+  padding: 0.5rem;
+  border-radius: 0.12rem;
+  position: relative;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
 }
-.icons_box:hover{
-  background:#1f2428;
- 
+.icons_box:hover {
+  background: #1f2428;
 }
-.icon_wrap{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
+.icon_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .icon_wrap img {
   width: 40px;
 }
-.icon_wrap{
+.icon_wrap {
   color: #dfe3e8;
 }
-.skill_know{
-  position:absolute;
-  left:0;
-  bottom:0;
-  border-bottom-left-radius:0.120rem;
-  background:#8739fa;
-  height:3px;
+.skill_know {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom-left-radius: 0.12rem;
+  background: linear-gradient(to right, #9957fc, #6d11f7);
+  height: 3px;
 }
- .node_js {
- width:60%;
+.node_js {
+  width: 60%;
 }
 
 .react_js {
-  width:50%;
+  width: 50%;
 }
 
 .mongo_db {
-  width:30%;
+  width: 30%;
 }
 
 .javascript {
-  width:70%;
+  width: 70%;
 }
 
 .laravel {
-  width:80%;
+  width: 80%;
 }
 .html {
-  width:90%;
+  width: 90%;
 }
 .css {
-  width:85%;
+  width: 85%;
 }
 .bootstrap {
-  width:80%;
+  width: 80%;
 }
 .php {
-  width:80%;
+  width: 80%;
 }
 .mysql {
- width:80%;
+  width: 80%;
 }
 .btn_group {
   width: 100%;
@@ -233,24 +232,22 @@ a {
   border: 2px solid #8739fa;
   letter-spacing: 2px;
   padding: 0.8rem 5rem;
-  border-radius: 5px;
+  border-radius: 0.12rem;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 30px;
+  margin-top: 3rem;
   transition: 0.5s;
   z-index: 2;
-  margin-left: 10px;
-  box-shadow: 1px 1px 3px rgba(0 ,0, 0,0.30);
+  margin-left: 0.8rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .btn_primary {
-  background: #8739fa;
+  background: linear-gradient(to top right, #751ef7, #8739fa);
 }
 .btn_primary_outline:hover {
   background: #8739fa;
 }
-.btn_primary:hover {
-  background: #751ef7;
-}
+
 .my_work {
   margin: 2rem 0;
   overflow: hidden;
@@ -261,64 +258,63 @@ a {
   height: 350px;
   background: #24292e;
   border-radius: 5px;
-  padding:1.2rem;
-  box-shadow: 1px 1px 3px rgba(0,0,0 ,0.30);
-  cursor:pointer;
+  padding: 1.2rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   position: relative;
 }
 .card_image {
   width: 100%;
   height: 180px;
   position: relative;
-  background:rgba(0, 0, 0, 0.2);
-  border-radius:5px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 .card_image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-  transition:0.5s;
+  transition: 0.5s;
 }
 .card:hover > .card_image img {
-  transform:translate(10px,10px);
+  transform: translate(10px, 10px);
 }
-.card_title{
-  text-align:center;
-  margin:1rem 0;
+.card_title {
+  text-align: center;
+  margin: 1rem 0;
   color: #919eab;
-  letter-spacing:1px;
-  font-size:1rem;
+  letter-spacing: 1px;
+  font-size: 1rem;
 }
-.project_info p{
- color: rgb(246, 246, 246);
+.project_info p {
+  color: rgb(246, 246, 246);
 }
-.card_footer{
-  width:50%;
-  padding:1rem 0;
-  position:absolute;
-  bottom:0;
-  right:0;
+.card_footer {
+  width: 50%;
+  padding: 1rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.card_link{
-  width:40px;
-  height:40px;
+.card_link {
+  width: 40px;
+  height: 40px;
   background: rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius:50%;
-  box-shadow: 0 0 10px rgba(0,0,0 ,0.30);
- 
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.card_link svg{
-  fill:#c9c642;
+.card_link svg {
+  fill: #c9c642;
 }
-.card_link:nth-child(1){
-  margin-right:10px;
+.card_link:nth-child(1) {
+  margin-right: 10px;
 }
 @media only screen and (max-width: 768px) {
   .btn {
@@ -352,7 +348,6 @@ a {
     float: left;
     padding: 8px;
   }
-
 }
 @media only screen and (max-width: 768px) {
   .col-s-1 {
