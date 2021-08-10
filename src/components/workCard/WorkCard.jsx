@@ -23,11 +23,11 @@ function WorkCard({
               <p>{description}</p>
             </div>
             <div className="tech_info">
-              {!techIcon.length
-                ? techIcon.map((tech) => {
+              {techIcon.length >0
+                ? techIcon.map((tech,i) => {
                     return (
-                      <div className="tech_image">
-                        <img src={`/images/mywork/${tech}`} alt={title} />
+                      <div className="tech_image" key={i}>
+                        <img src={`/images/icons/${tech}`} alt={title} />
                       </div>
                     );
                   })
