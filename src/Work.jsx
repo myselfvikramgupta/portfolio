@@ -1,6 +1,7 @@
 import Title from "./components/title/Title";
 import WorkCard from "./components/workCard/WorkCard";
 import myWork from './data/myWork'
+
 function Work() {
   return (
     <>

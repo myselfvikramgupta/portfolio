@@ -1,5 +1,7 @@
 import GithubSvg from "../svgIcon/GithubSvg";
 import LinkSvg from "../svgIcon/LinkSvg";
+import Tilt from 'react-parallax-tilt';
+
 function WorkCard({
   image = "",
   title = "",
@@ -10,7 +12,11 @@ function WorkCard({
 }) {
   return (
     <>
+    
       <div className="col-4 col-s-12">
+        <Tilt
+       
+      >
         <div className="card">
           <div className="card_image">
             <img src={`/images/mywork/${image}`} alt={title} />
@@ -49,7 +55,9 @@ function WorkCard({
             </div>
           </div>
         </div>
+        </Tilt>
       </div>
+      
     </>
   );
 }
